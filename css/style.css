@@ -1,0 +1,305 @@
+/*===============================================
+ Common CSS 
+ ===============================================*/
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #999;
+    font-size: 20px;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.container:after,
+.container:before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-50{
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.col-33{
+    width: 33.33%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.row{
+    margin-left: -5%;
+    margin-right: -5%;
+}
+.padding-l-r{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.success-l-r{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+img{
+    width: 100%;
+}
+h2{
+    margin: 0;
+    text-transform: uppercase;
+}
+/*===============================================
+ NavSection Area 
+ ===============================================*/
+.nav-section{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.nav{
+    text-align: right;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    list-style: none;
+    display: inline;
+}
+.nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #3C3C3C;
+    padding: 20px;
+    font-weight: 700;
+}
+/*===============================================
+ About section Area 
+ ===============================================*/
+.about-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about h2{
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.about h2 #text-highlight{
+    color: #F48269;
+}
+.about p{
+    padding-bottom: 15px;
+}
+.about a{
+    text-decoration: none;
+    display: inline-block;
+    background:rgb(242, 108, 98);
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+}
+.about a i{
+    padding-right: 10px;
+}
+/*===============================================
+ Working area 
+ ===============================================*/
+.work-area{
+    background: #F8F8FA;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.work-title{
+    text-align: center;
+    color: #363959;
+    padding-bottom: 50px;
+}
+.work-title h1 span{
+    color: #F26761;
+}
+.work-img {
+    box-shadow: 4px 10px 22px grey;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
+}
+.work-img img{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.work-img h3 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+}
+.work-img p {
+    font-size: 15px;
+    font-weight: 600;
+}
+/*===============================================
+ work-inquiry-area 
+ ===============================================*/
+.work-inquiry{
+    padding: 10%;
+    position: relative;
+}
+.inquiry-title{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+}
+.inquiry-title h2{
+    color: #fff;
+    font-weight: 600;
+}
+.inquiry-btn{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+}
+.inquiry-btn a{
+    text-decoration: none;
+    display: inline-block;
+    background:rgb(242, 108, 98);
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+}
+/*===============================================
+ success area 
+ ===============================================*/
+.success-area{
+    text-align: center;
+    background: #F8F8FA;
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.success-area h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.success-area p{
+    font-size: 25px;
+}
+.success{
+    padding: 15px;
+    background: #BABABB;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.success i{
+    color: #F25421;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.success h2{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.success h3{
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+/*===============================================
+Form section area 
+================================================*/
+.form-section-area{
+    background: #fff;
+    text-align: center;
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.form-section-area h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+.form-section-area h2{
+    color: #F96D61;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+.contact-form{
+    text-align: left;
+}
+textarea{
+    resize: none;
+}
+textarea,
+input[type=text],
+input[type=email]{
+    width: 100%;
+    color: #000;
+    font-weight: 600;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+textarea:focus,
+input[type=text]:focus,
+input[type=email]:focus{
+    outline: 0px;
+}
+input[type=submit]{
+    width: 100%;
+    border: 0px;
+    background: #F25421;
+    color: #fff;
+    font-weight: 600;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.social-icon{
+    padding-top: 20%;
+}
+.social-icon a{
+    display: block;
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #363959;
+}
+.social-icon img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+/*===============================================
+Footer section area 
+================================================*/
+.footer-section{
+    text-align: center;
+    background: #F26C62;
+    color: #fff;
+    font-weight: 600;
+}
+.footer span{
+    color: #4B3DC7;
+}
